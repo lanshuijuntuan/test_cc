@@ -1,0 +1,34 @@
+.bg-yel{
+    background: yellow;
+   
+}
+.bg-red{
+    background: red;
+  
+}
+.bg-gre{
+    background: green;
+}
+.fl{
+    float: left;
+}
+.d1{
+    width: 30px;
+    height: 30px;
+}
+.d2{
+    width: 40px;
+    height: 40px;
+}
+.d3{
+    width: 50px;
+    height: 50px;
+}
+.d4{
+    width: 60px;
+    height: 60px;
+}
+.d5{
+    width: 70px;
+    height: 70px;
+}

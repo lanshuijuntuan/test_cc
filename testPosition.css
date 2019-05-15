@@ -1,0 +1,64 @@
+.panel1{
+    position: absolute;
+    left: 10px;
+    top: 900px;
+    background: red;
+}
+.panel2{
+    position: fixed;
+    left: 10px;
+    top: 0px;
+    background: yellow;
+}
+.panel3{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background: green;
+}
+.panel4{
+    position: relative;
+    left: 50px;
+    background: gray;
+    /* width: 120px;
+    height: 120px; */
+}
+.panel5{
+    position: absolute;
+    left: 50px;
+    background: darkcyan;
+}
+
+
+.p1{
+    background: blue;
+}
+
+
+
+.cf::before{
+    content: "";
+    display: block;
+}
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.box300{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background: blue;
+}
+.testAbs{
+    position: absolute;
+    top: 15px;
+    left: 5px; 
+}

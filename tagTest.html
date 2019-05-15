@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是测试HTML标签的文档</title>
+    <link rel="stylesheet" href="tagCSS.css">
+</head>
+
+<body>
+    <!-- 文字标签 -->
+    <!-- h标签例子 -->
+    <h1>这是H1</h1>
+    <!-- 换行符 -->
+    <br />
+    <h2>这是H2</h2>
+    <!-- 水平分界线 -->
+    <hr />
+    <h3>这是H3</h3>
+    <h4>这是H4</h4>
+    <h5>这是H5</h5>
+    <h6>这是H6</h6>
+
+
+
+
+    <!-- 段落标签 -->
+    <p>这是段落标签</p>
+    <p>这是段落标签</p>
+    <p>这是段落标签</p>
+    <p>这是段落标签</p>
+
+
+    <!-- 表单 -->
+    <!-- 表单标签 -->
+    <form action="">
+        用户编号:
+        <input type="text" name="userCode" id="userCode"><br>
+        性别:
+        <label for="male">男</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="female">女</label>
+        <input type="radio" name="sex" id="female" value="female"><br>
+        出生年月：
+        <input type="date" name="birthday" id="birthday"><br>
+        爱好:
+        <label for="singSong">唱歌:</label>
+        <input type="checkbox" name="hobby" id="singSong">
+        <label for="dance">跳舞:</label>
+        <input type="checkbox" name="hobby" id="dance">
+        <label for="read">读书:</label>
+        <input type="checkbox" name="hobby" id="read">
+        <label for="surfInternet">上网冲浪:</label>
+        <input type="checkbox" name="hobby" id="surfInternet"><br>
+
+        <input type="button" value="" id="btn">
+        <input type="text" name="" id="test">
+        <input type="checkbox" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="number" name="" id=“”>
+        <input type="date" name="" id=“”>
+        <input type="datetime" name="" id=“”>
+        <input type="datetime-local" name="" id=“”>
+        <input type="color" name="" id=“”>
+
+        <input type="url" name="" id="">
+        <input type="range" name="" id="">
+        <input type="tel" name="" id="">
+        <input type="email" name="" id="">
+
+    </form>
+
+    <!-- 表格 -->
+    <h2>表格</h2>
+    <table>
+
+
+        <caption>表格标题</caption>
+        <colgroup>
+            <col class="col-1" span="2" />
+            <col class="col-2" span="4" />
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>第一列</th>
+                <th>第二列</th>
+                <th>第三列</th>
+                <th>第四列</th>
+                <th>第五列</th>
+                <th>第六列</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+                <td>item</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>total</td>
+                <td>total</td>
+                <td>total</td>
+                <td>total</td>
+                <td>total</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>无序列表</h2>
+    <ul>
+        <li>item
+            <ul>
+                <li>sdf
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </li>
+                <li>sdf</li>
+                <li>sdf</li>
+                <li>sdf</li>
+            </ul>
+
+
+        </li>
+        <li>item
+            <ul>
+                <li>sdf</li>
+                <li>sdf</li>
+                <li>sdf</li>
+                <li>sdf</li>
+            </ul>
+        </li>
+        <li>item
+            <ul>
+                <li>sdf</li>
+                <li>sdf</li>
+                <li>sdf</li>
+                <li>sdf</li>
+            </ul>
+        </li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <h2>有序列表</h2>
+    <ol>
+        <li>item1
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4
+                    <ol>
+                        <li>sdj 1</li>
+                        <li>sdj 2</li>
+                        <li>sdj 3</li>
+                        <li>sdj 4</li>
+                        <li>sdj 5</li>
+                        <li>sdj 6</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>item1</li>
+        <li>item1</li>
+        <li>item1</li>
+        <li>item1</li>
+        <li>item1</li>
+    </ol>
+
+    <h2>定义列表</h2>
+    <dl>
+        <dt>test 1</dt>
+        <dd>testA 1</dd>
+        <dt>test 2</dt>
+        <dd>testA 2</dd>
+        <dt>test 3</dt>
+        <dd>testA 3</dd>
+        <dt>test 4</dt>
+        <dd>testA 4</dd>
+        <dt>test 5</dt>
+        <dd>testA 5</dd>
+        <dt>test 6</dt>
+        <dd>testA 6</dd>
+    </dl>
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+    <div>div4</div>
+    <div>div5</div>
+</body>
+
+</html>

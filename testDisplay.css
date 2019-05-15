@@ -1,0 +1,13 @@
+.p1{
+    display: inline;
+    background: red;
+}
+.p2{
+    display: inline;
+    background: yellow;
+}
+.p3{
+    display: inline-block;
+    background: green;
+    width: 200px;
+}

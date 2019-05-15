@@ -1,0 +1,57 @@
+.testWei::before{
+
+    content: "伪类开始";
+}
+.testWei::after{
+    content: "伪类结束";
+}
+.testLineHeigt{
+    line-height: 50px;
+    margin: 0px;
+}
+
+.zeroLineHeigt{
+    line-height: 0px;
+    margin: 5px 0px;
+}
+
+.testPadding{
+    padding: 10px;
+    background: green;
+}
+
+.testMargin{
+    margin: 100px;
+    background: blue;
+
+}
+.testPadding em {
+    position: absolute;
+    border-width: 6px;
+    border-style: solid dashed dashed;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    overflow: hidden;
+    height: 0;
+    left: 82px;
+    top: 23px;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+}
+
+.cf::before{
+    display: table;
+    content: "";
+}
+.cf::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}

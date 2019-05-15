@@ -1,0 +1,31 @@
+body,div,th,td,ul,li{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.nav-toolbar{
+    background: black;
+    /* height: 40px; */
+    
+}
+.menu{
+    font-size: 18pt;
+    color:white;
+    /* background: black; */
+    margin-left: 40px;
+    align-items: center;
+}
+.menu::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.menuitem{
+    float: left;
+    list-style:none;
+    padding: 10px;
+}
+.itemButton{
+    color: white;
+    text-decoration: none;
+}
